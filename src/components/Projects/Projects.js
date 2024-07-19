@@ -19,7 +19,7 @@ function Projects() {
             <ProjectCard
               isBlog={false}
               title="Virtual Assistant"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Personal Desktop Assistant, which can perform all basic tasks like opening different applications, playing music, sending messages, and Wikipedia searches. Supports speech input. It was developed in Python using some libraries plus an OPENAI api was also used."
               ghLink="https://github.com/sherryadan/Virtual-Assistant--Final-Year-Project"
             />
           </Col>
@@ -28,7 +28,7 @@ function Projects() {
             <ProjectCard
               isBlog={false}
               title="Food Ordering System"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="A more or less an ECOMMERCE Store developed in Asp.net framework. Has a master page too and a bit of backend work was also done in C#. It was my 4th semester project of Visual Programming."
               ghLink="https://github.com/sherryadan/Food-App"
             />
           </Col>
@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               isBlog={false}
               title="Textutils"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="My first Project in React, a basic web app which can play with text. Can convert, edit, count, copy and delete text. This is a very basic application beacuse of the fact that I was just getting familiar with React js."
               ghLink="https://github.com/sherryadan/React-Js---TextUtils"
             />
           </Col>
@@ -46,7 +46,7 @@ function Projects() {
             <ProjectCard
               isBlog={false}
               title="News Honey"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description = "Second React Project which is a NEWS App. It uses external News API and fetch news and display it. This is  responsive and slightly technical website. It may sound simple to you if you are experienced developer but it got me sweating at a point."
               ghLink="https://github.com/sherryadan/NewsHoney---A-React-News-App"
             />
           </Col>
