@@ -8,7 +8,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 160,
+            value: 1600,
             density: {
               enable: true,
               value_area: 1500,
