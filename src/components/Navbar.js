@@ -11,7 +11,6 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -32,11 +31,17 @@ function NavBar() {
     <Navbar
       expanded={expand}
       fixed="top"
-      expand="md"
+      expand="md" // Adjust the breakpoint based on your preference
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-          <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          onClick={() => updateExpanded(!expand)}
+        >
+          <span className="navbar-toggler-icon" />
+        </Navbar.Toggle>
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
@@ -77,7 +82,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            <Nav.Item className="fork-btn d-none d-sm-block">
               <Button
                 href="https://github.com/sherryadan"
                 target="_blank"
