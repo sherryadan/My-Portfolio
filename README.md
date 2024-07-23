@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Adan's Portfolio <br/>
 </h2>
 <br/>
 
