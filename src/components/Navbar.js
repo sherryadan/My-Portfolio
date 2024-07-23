@@ -39,6 +39,7 @@ function NavBar() {
           aria-controls="responsive-navbar-nav"
           onClick={() => updateExpanded(!expand)}
         >
+          
           <span className="navbar-toggler-icon" />
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
